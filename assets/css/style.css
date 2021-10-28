@@ -85,11 +85,11 @@ body {
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color:magenta;
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.4s;
 }
 
 .menu {

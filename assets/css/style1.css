@@ -62,3 +62,9 @@ button {
     font-weight: bold;
     text-decoration: none;
 }
+
+button:hover {
+    color: magenta;
+    border-color: rgb(251, 146, 255);
+    transition: all 0.4s;
+}
