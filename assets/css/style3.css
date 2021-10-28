@@ -1,0 +1,92 @@
+html {
+    margin : 0;
+    padding : 0;
+    height : 100%;
+    text-decoration: none;
+}
+
+body {
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 100vh;
+    background-image: url('./img/aestheticLeavesPurpleish.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-me {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 18%;
+}
+
+h3 {
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+p.nim{
+    color: #fff;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button#references-btn {
+    transition: all 0.4s ease-in-out;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button#back{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+button#back a, button#references-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.references {
+    padding-top: 20px;
+    color: #fff;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 1000px;
+    height: 500px;
+}
+
+span{
+    float: right;
+    font-size: 25px;
+    display: flex;
+    font-weight: bolder
+}

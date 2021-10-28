@@ -1,0 +1,64 @@
+body {
+    background-image: url('./img/moonPhase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 120px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+#number {
+    height: 25px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    border : 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#increment {
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#decrement {
+    align-items: center;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    width : 220px;
+    border: 2px double white;
+    font-size:small;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}

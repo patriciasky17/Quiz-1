@@ -1,0 +1,47 @@
+html {
+    margin : 0;
+    padding : 0;
+    height : 100%;
+}
+
+body {
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 100vh;
+    background : #E63C44;
+    color : #fff;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 60px;
+    background: #fff;
+    color: #E63C44;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button#change {
+    transition: all 0.4s ease-in-out;
+}
+
+button#back a{
+    text-decoration: none;
+}
